@@ -9,4 +9,7 @@ Run:
 curl https://raw.githubusercontent.com/arsenidze/devops-course-module-8-task-1/master/install.sh | sh
 ```
 
-You can disable the hook logic via `hooks.checkgitleaks` variable inside git config
+You can disable the hook logic via `hooks.checkgitleaks` variable inside git config:
+```sh
+git config --local hooks.checkgitleaks "false"
+```
