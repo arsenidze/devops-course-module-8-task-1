@@ -1,3 +1,3 @@
-const SECRET_KEY = '123'
+const SECRET_KEY = 'AKIAIMNOJVGFDXXXE4OA'
 
 console.log(SECRET_KEY)
