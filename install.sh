@@ -21,7 +21,7 @@ install_git_leaks () {
 	if [ -x "${PATH_TO_SCRIPT}/gitleaks_for_git_precommit_hook" ]; then
 		# use localy installed gitleaks with binary name - gitleaks_for_git_precommit_hook
 		GITLEAKS_SOURCE="${PATH_TO_SCRIPT}/gitleaks_for_git_precommit_hook"
-	elif ! [ -x "$(command -v gitleaks1)" ]; then
+	elif ! [ -x "$(command -v gitleaks)" ]; then
 		if ! [ -x "$(command -v go)" ]; then
 			echo 'Error: go is not installed.' >&2
 			exit 1
